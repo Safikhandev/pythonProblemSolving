@@ -56,11 +56,58 @@
 # =======================================================
 # =======================================================
 
+# Check if a number is greater than 80, say “good”, if not say, “Try again”
+
+# def greater_number(num):
+#     if num > 80:
+#         print("good")
+#     else:
+#         print("Try Again")
+
+# greater_number(50)
+# greater_number(91)
+
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+
+# Check whether a number is divisible by another user-given number or not
+# def divisible_num(num1, num2):
+#     if num1 % num2 == 0:
+#         print("Divisible number")
+#     else:
+#         print("Not divisible number")
+
+# divisible_num(10, 2)
 
 
 
 
 # =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+
+# Sum of odd numbers from 10 user-given numbers
+
+#  Sum of odd numbers from 10 user-given numbers
+
+# def odd_numbers(numbers):
+#     total = 0
+#     for x in range(numbers):
+#         if x % 2 != 0:
+#             print("Odd number:", x)
+#             total += x
+#     print("Total of odd numbers:", total)
+
+# odd_numbers(10)
+
+
+
+
 # =======================================================
 # =======================================================
 # =======================================================
