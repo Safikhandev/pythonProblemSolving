@@ -112,5 +112,104 @@
 # =======================================================
 # =======================================================
 # =======================================================
+
+
+# Sum of even number from n user-given numbers. Where n is also user-input.
+# users = int(input("Enter a number:"))
+# print(users)
+
+# total = 0
+# for x in range(users):
+# 	if x % 2 == 0:
+#          print("Even number:", x)
+#          total += x
+# print("Total of even numbers:", total)
+    
+# =======================================================
+# =======================================================
+# =======================================================
+
+#  Show first n terms of Fibonacci series
+
+# def fibonancci(n):
+#     a, b = 0, 1
+#     for i in range(n):
+#         print(a, end=" ")
+#         a,b = b, a + b
+# fibonancci(10) 
+
+
+
+
+# ===============================================
+# =======================================================
+# =======================================================
+
+# Converting temperature from Fahrenheit to Celsius [Formula: C = (f-32) * (5/9)]
+
+# def fahrenheit_to_celciusa(f):
+#     C = (f - 32) * (5/9)
+#     return C
+# print(fahrenheit_to_celciusa(33))
+
+
+
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+
+#  Calculating pay for an employee, given the hours worked and rate per hour.
+
+#  Calculating pay for an employee, given the hours worked and rate per hour.
+
+# def calculate_pay(hours, rate):
+#     if hours > 40:
+#         overtime_hours = hours - 40
+#         regular_hours = 40
+#         overtime_pay = overtime_hours * (rate * 1.5)
+#         regular_pay = regular_hours * rate
+#         total_pay = regular_pay + overtime_pay
+#         return total_pay
+#     else: 
+#         regular_pay = hours * rate
+#         return regular_pay
+# print(calculate_pay(45, 10))
+# print(calculate_pay(33, 5))
+
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+
+
+# Determine the status of a student (pass or fail) given his/her marks in a subject (passing marks = 50)
+
+# def student_status(marks):
+#     if marks > 50:
+#         print("pass")
+#     else: 
+#         print("fail")
+# student_status(60)
+# student_status(44)
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+
+
+
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
 # =======================================================
 # =======================================================
