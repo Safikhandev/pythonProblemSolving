@@ -254,6 +254,157 @@
 # =======================================================
 # =======================================================
 # =======================================================
+
+# tasks = []
+
+# def show_menu():
+#     print("Start TODO List")
+#     print("1. Add Task")
+#     print("2. View Tasks")
+#     print("3. Exit")
+
+# while True:
+#     show_menu()
+#     choice = input("Enter your choice: " )
+#     if choice == '1':
+#         task = input("Enter your task: ")
+#         tasks.append(task)
+#         print("Task added successfully!")
+#     elif choice == '2':
+#         print("\nView Tasks")
+#         for i, task in enumerate(tasks, start=1):      # mean of enumerate ==  range(len(tasks))
+#             print(f"{i}. {task}")
+#     else:
+#         if choice == 'exit':
+#             break
+
+# print(tasks)
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+
+#  Project: Number Guessing Game
+
+
+# import random
+
+# number = random.randint(0, 100)
+
+# print("Guess a number between", number)
+
+# zero = 0
+# print("Guess the number between 1 to 100")
+
+# while True:
+#     guess = int(input("Enter your guess: "))
+#     zero += 1
+#     if guess < number:
+#         print("Low number!")
+#     elif guess > number:
+#         print("High number!")
+#     else:
+#         print("Corret to guess the number") 
+#         break
+
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+
+#  Project: Simple Calculator
+# 📝 Description:
+# Make a calculator that can do:
+
+# Addition
+
+# Subtraction
+
+# Multiplication
+
+# Division
+
+# ✅ Features:
+# User selects an operation
+
+# Inputs two numbers
+
+# Shows result
+
+# Runs in a loop until user quits
+
+
+# def add(x, y):
+#     return x + y
+# def sub(x, y):
+#     return x - y
+# def multi(x, y):
+#     return x * y
+# def divid(x, y):
+#     if y == 0:
+#         return ("Error! Division by zero is not allowed.")
+#     return x / y
+  
+
+  
+# number = int(input("enter first number: "))
+# number2 = int(input("enter second number: "))
+
+# while True:
+#     print("\n📱 Simple Calculator")
+#     print("1. Add")
+#     print("2. Subtract")
+#     print("3. Multiply")
+#     print("4. Divide")
+#     print("5. Exit")
+
+#     array  = ['1','2','3','4','5']
+#     choice = input("Enter choice(1/2/3/4/5): ")
+
+#     if choice not in array:
+#         print("Invalid Input")
+
+#     if choice == '1':
+#         print("Add" , add(number, number2))
+#     elif choice == '2':
+#         print("Subtract", sub(number, number2))
+#     elif choice == '3':
+#         print("Multiply", multi(number,number2))
+#     elif choice == '4':
+#         print("Divide" , divid(number,number2))
+#     elif choice == '5':
+#         print("Exit")
+#         break
+#     else:
+#         print("Invalid choice! Please try again.")   
+
+
+
+
+
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+
+
+
+
+
+
+
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
+# =======================================================
 # =======================================================
 # =======================================================
 # =======================================================
