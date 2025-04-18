@@ -391,10 +391,45 @@
 # =======================================================
 
 
+# Project: Word Counter
+# 📝 Description:
+# This program asks the user to input a sentence or paragraph and tells:
+
+# Total number of words
+
+# Total number of characters
+
+# Frequency of each word
+
+# ✅ Features:
+# Input text
+
+# Split into words
+
+# Count frequency using a dictionary
+# word_freq = {}
+
+# get_sentenc = input("Enter a sentency: ")
+# print(get_sentenc)
+
+# spllit = get_sentenc.split(" ")
+# print(spllit)
+
+# for i in range(len(spllit)):
+#     print(f"{spllit[i]} : {i + 1}")
+#     total = len(spllit)
+# print(total)
 
 
+# get_char = get_sentenc.replace(" ", "")
+# print("Count the character" , len(get_char))
 
-
+# for word in spllit:
+#     if word in word_freq:
+#         word_freq[word] += 1
+#     else:
+#         word_freq[word] = 1
+# print("Frequency of each word:" , word_freq)
 
 # =======================================================
 # =======================================================
